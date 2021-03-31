@@ -61,8 +61,8 @@ class Matrix4Page extends StatelessWidget {
       // body: _myTransform(Matrix4.diagonal3(vectorMath.Vector3(2, 4, 0))),
       // body: _myTransform(Matrix4.diagonal3(vectorMath.Vector3(2, -0.8, 0))),
       // body: _myTransform(Matrix4.skewX(dartMath.pi * 0.25)),
-      // body: _myTransform(Matrix4.skewY(dartMath.pi * 0.25)),
-      body: _myTransform(Matrix4.skew(dartMath.pi * 0.2,dartMath.pi * 0.1)),
+      body: _myTransform(Matrix4.skewY(dartMath.pi * 0.25)),
+      // body: _myTransform(Matrix4.skew(dartMath.pi * 0.2,dartMath.pi * 0.1)),
     );
   }
 }

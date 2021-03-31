@@ -120,7 +120,7 @@ class ContainerPage extends StatelessWidget {
                     .headline4
                     .copyWith(color: Colors.white),
               ),
-              transform: Matrix4.rotationZ(0.1),
+              transform: Matrix4.rotationY(0.8),
             ),
             Container(
               margin: EdgeInsets.only(top: 50),

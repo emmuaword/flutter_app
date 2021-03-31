@@ -11,7 +11,7 @@ class CupertinoDialogPage extends StatefulWidget {
   - child：
 - CupertinoPopupSurface
   - child：
-  - isSurfacePainted：是否使用白色模糊层
+  - isSurfacePainte d：是否使用白色模糊层
   ''';
 
   @override
@@ -23,8 +23,9 @@ class _CupertinoDialogPageState extends State<CupertinoDialogPage> {
     showCupertinoDialog(
       context: context,
       builder: (context) {
-        return CupertinoDialog(
+        return CupertinoPopupSurface(
           child: _myDialog(),
+          isSurfacePainted: true,
         );
       },
     );

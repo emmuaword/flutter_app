@@ -35,7 +35,6 @@ class _CupertinoPageScaffoldPageState extends State<CupertinoPageScaffoldPage> {
         trailing: Icon(Icons.more_vert),
         backgroundColor: Colors.blue,
         padding: EdgeInsetsDirectional.zero,
-        actionsForegroundColor: Colors.white,
         middle: Text('CupertinoPageScaffold'),
       ),
       backgroundColor: Colors.white,
